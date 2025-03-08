@@ -1,8 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial;
-    border: 5px solid black;
-    margin: 50px;
+    margin: 0;
     background-color: #FDF6EC;      /* Soft beige background */
     color: #3A3A3A;                 /* Elegant dark text */
     text-align: center;
@@ -33,7 +32,7 @@ nav ul li a {                       /* ancher tag of li tag of ul tag of nav */
 }
 
 nav ul li a:hover {
-    color: Aqua;                /*  Aqua hover effect */
+    color: skyblue;                /*  Aqua hover effect */
 }
 
 /* Header */
@@ -77,6 +76,7 @@ header p {
     width: 250px;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .product:hover {
